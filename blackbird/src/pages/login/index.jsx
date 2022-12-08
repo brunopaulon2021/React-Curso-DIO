@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 const Login = () => {
   return (
     <>
       <h1>Login</h1>
-      <button>Voltar para Home</button>
+      <Link to='/'> Voltar para Home </Link>  
     </>
   )
 }
