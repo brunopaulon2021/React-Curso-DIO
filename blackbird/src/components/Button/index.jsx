@@ -7,4 +7,4 @@ const Button = ({title, variant = 'primary', onClick}) => {
         )
 }
 
-export {button}
+export {Button}
